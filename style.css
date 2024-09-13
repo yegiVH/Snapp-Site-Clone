@@ -1,0 +1,518 @@
+@font-face {
+    font-family: vazir;
+    src: url(./font/Vazir-Bold-FD-WOL.ttf);
+}
+
+body {
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin-top: -51px;
+    display: flex;
+    justify-content: right;
+    padding: 19px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid rgb(226, 223, 223);
+}
+
+#snappLogo {
+    display: flex;
+    justify-content: right;
+    margin-top: 12px;
+    margin-right: 194px;
+}
+
+nav {
+    margin-top: 0px;
+    margin-right: 22px;
+}
+
+.mainNav {
+    display: inline;
+    padding: 13px;
+}
+
+.mainNav:hover {
+    cursor: pointer;
+}
+
+#mm {
+    padding: 12px;
+    border: 1px solid white;
+    border-top: #21aa58;
+    border-left: #21aa58;
+    border-right: #21aa58;
+    background-color: #21aa58;
+    margin-top: -2.2rem;
+    direction: rtl;
+    font-family: vazir;
+    width: 225px;
+    position: absolute;
+    margin-left: 0rem;
+}
+
+#mm::placeholder {
+    color: #cbe0d4;
+}
+
+section {
+    display: flex;
+    padding: 1px;
+    margin-bottom: 82px;
+    margin-top: 51.2px;
+}
+
+#right-section {
+    background-color: #21aa58;
+    margin: 0px;
+    height: 506px;
+    width: 760px;
+}
+
+#left-section {
+    height: 506px;
+    width: 758.99px;
+    background-image: url(./img/intro_desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#f-h {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-right: 150px;
+    margin-left: 57px;
+    margin-top: 80px;
+    direction: rtl;
+}
+
+#f-p {
+    font-size: 19px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-right: 100px;
+    margin-left: 65px;
+    width: 470px;
+    direction: rtl;
+
+}
+
+#f-form {
+    margin-bottom: 16px;
+    margin-right: 150px;
+    margin-left: 40px;
+}
+
+#buttonlink {
+    font-family: vazir;
+    font-size: 20;
+    font-size: 15px;
+    font-weight: 200;
+    color: #25b85f;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 39px;
+    width: 125px;
+    border-radius: 6px;
+    margin-left: 104px;
+    margin-top: 13px;
+    margin-right: -1px;
+    display: inline;
+}
+
+#buttonlink:hover {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: left;
+}
+
+#phonenumber {
+    margin-top: -5px;
+    margin-left: 15px;
+
+}
+
+#phonenumber:hover {
+    cursor: text;
+    color: #fff;
+}
+
+#buttonapp {
+    background-color: #21aa58;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-family: vazir;
+    font-size: 16px;
+    height: 50px;
+    width: 250px;
+    margin-right: 36px;
+    margin-top: -5px;
+}
+
+#buttonapp:hover {
+    cursor: pointer;
+}
+
+#link-to-app {
+    display: flex;
+    justify-content: right;
+    margin-right: 190px;
+    margin-top: 50px;
+}
+
+#media {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 230px;
+    margin-bottom: 85px;
+}
+
+.diff-media:hover {
+    cursor: pointer;
+}
+
+#section2 {
+    background-color: #f2f5f8;
+    height: 944px;
+    width: 1519.2px;
+}
+
+#menu-row {
+    width: 1063.45px;
+    height: 761.8px;
+    margin: 0 auto;
+}
+
+.row-i {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.minis {
+    background-color: #fff;
+    height: 90px;
+    width: 310px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ps {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+.h3 {
+    text-align: right;
+    display: inline;
+}
+
+#matn-1-1 {
+    padding: 20px;
+    margin-right: -20px;
+    direction: rtl;
+}
+
+#matn-1-2 {
+    padding: 20px;
+    margin-right: -150px;
+    margin-left: 35px;
+    direction: rtl;
+}
+
+#matn-1-3 {
+    padding: 20px;
+    margin-right: -100px;
+    margin-left: 35px;
+    direction: rtl;
+}
+
+#matn-2-1 {
+    padding: 20px;
+    margin-right: -50px;
+    direction: rtl;
+}
+
+#matn-2-2 {
+    padding: 20px;
+    margin-right: -150px;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+#matn-2-3 {
+    padding: 20px;
+    margin-right: -100px;
+    margin-left: 35px;
+    direction: rtl;
+}
+
+#matn-3-1 {
+    padding: 20px;
+    margin-right: -140px;
+    margin-left: 15px;
+    direction: rtl;
+}
+
+#matn-3-2 {
+    padding: 20px;
+    margin-right: -150px;
+    margin-left: 75px;
+    direction: rtl;
+}
+
+#matn-3-3 {
+    padding: 20px;
+    margin-right: -100px;
+    margin-left: 68px;
+    direction: rtl;
+}
+
+#matn-4-1 {
+    padding: 20px;
+    margin-right: -180px;
+    margin-left: 34px;
+    direction: rtl;
+}
+
+#matn-4-2 {
+    padding: 20px;
+    margin-right: -30px;
+    margin-left: 20px;
+    direction: rtl;
+}
+
+#matn-4-3 {
+    padding: 20px;
+    margin-right: -100px;
+    margin-left: 68px;
+    direction: rtl;
+}
+
+#matn-5-1 {
+    padding: 20px;
+    margin-right: -180px;
+    margin-left: 34px;
+    direction: rtl;
+}
+
+#matn-5-2 {
+    padding: 20px;
+    margin-right: -150px;
+    margin-left: 20px;
+    direction: rtl;
+}
+
+#matn-5-3 {
+    padding: 20px;
+    margin-right: -20px;
+    margin-top: -5px;
+    direction: rtl;
+}
+
+#matn-6-1 {
+    padding: 20px;
+    margin-right: -150px;
+    margin-left: 20px;
+    direction: rtl;
+}
+
+#matn-6-2 {
+    padding: 20px;
+    margin-right: -120px;
+    margin-left: 35px;
+    direction: rtl;
+}
+
+#row-6 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 169px;
+}
+
+#middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 9.5rem;
+    margin-bottom: 63px;
+}
+
+#section3 {
+    display: flex;
+    margin-left: -14.2rem;
+    margin-right: -14.2rem;
+
+}
+
+#left-part {
+    background-color: #fff;
+    margin: 0px;
+    height: 410px;
+    width: 560px;
+    padding: 90px;
+    margin-left: 9.6rem;
+}
+
+#right-part {
+    height: 450px;
+    width: 986px;
+    background-image: url(./img/dast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -1px;
+    margin-left: -3rem;
+}
+
+#after-section3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -14.4rem;
+    padding: 29px;
+
+
+}
+
+.a-s-col-i-img {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f5f8;
+    border-radius: 18px;
+}
+
+.a-s-col-i {
+    height: 337.11px;
+    width: 253px;
+}
+
+.a-s-1p {
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+}
+
+.a-s-2p {
+    direction: rtl;
+    font-size: 12px;
+    text-align: right;
+    color: #494747;
+}
+
+#section4 {
+    background-color: #f2f5f8;
+    margin-left: -14.5rem;
+    margin-right: -14.5rem;
+    margin-top: -2.1rem;
+    height: 89.8rem;
+
+}
+
+#sabt-button {
+    font-family: vazir;
+    color: rgb(255, 255, 255);
+    font-size: 17.08px;
+    background-color: rgb(0, 209, 112);
+    border: none;
+    border-radius: 6px;
+    height: 47.5px;
+    width: 170.2px;
+}
+
+#sabt-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.15rem;
+    margin-bottom: 56.5px;
+}
+
+#f-video {
+    display: flex;
+    justify-content: center;
+
+    width: 66.5rem;
+}
+
+.radius-lg {
+    border-radius: 9px;
+}
+
+#categ {
+    margin-top: 1rem;
+    padding: 0 13.9rem;
+}
+
+.first-p {
+    text-align: right;
+    direction: rtl;
+}
+
+.second-p {
+    text-align: right;
+    direction: rtl;
+    font-size: 13px;
+}
+
+.categ-rowi {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.categ-row1-coli {
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    width: 32.6rem;
+    height: 200px;
+}
+
+.categ-row1-coli-text {
+    padding: 1.9rem;
+}
+
+.categ-row1-coli-img {
+    padding-top: 3.3rem;
+    padding-right: 2rem;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 7rem;
+}
+
+#nav-footer {
+    display: flex;
+    justify-content: right;
+    margin-right: -9.2rem;
+    margin-top: 1.8rem;
+}
+
+#svg-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#svgs {
+    margin-top: 2.5rem;
+    margin-left: -6.8rem;
+    margin-right: 5.3rem;
+}
